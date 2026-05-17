@@ -151,7 +151,7 @@ object AtmLogic:
     (Writer(List("Наступил новый день. Лимиты сброшены"), ()), state.copy(todayWithdraw = Map.empty))
   }
 
-// IO
+// Точка входа и логика IO
 
 object MainApp:
 
